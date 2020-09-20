@@ -1,0 +1,120 @@
+@import url(main.css);
+
+a {
+	text-decoration: none;
+
+}
+
+h4, h3 {
+	margin: 0.5rem;
+	margin-left: 0.6rem;
+}
+
+blockquote {
+	margin: 0.7em 0 0.7em 5%;
+	padding: 0.7em 2% 0.7em 4%;
+	background: #e8e9ea;
+	overflow: hidden;
+}
+
+.page-header {
+	line-height: 5rem;
+	width: 90%;
+	margin: 2rem 0 1rem 5%;
+	font-family: 'century gothic', arial;
+	border-bottom: 2px dashed #444;
+}
+
+.page-header h1 {
+	font-size: 3rem;
+}
+
+.page-container {
+	min-height: 500px;
+	width: 90%;
+	margin-left: 5%;
+	line-height: 1.4rem;
+}
+
+.floatleft {
+	float: left;
+	margin: 1rem 1rem 0 .7rem;
+}
+
+.page-container > p {
+	padding: 0.7rem;
+	/*text-indent: 1.1rem;*/
+}
+
+.page-container ul {
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+}
+
+.side-info {
+	text-align: center;
+	float: right;
+	font-size: 90%;
+	padding-top: 3px;
+	line-height: 1.1rem;
+	border: 1px solid #c8ccd1;
+	background-color: #f8f9fa;
+	margin: 0.5em 0 1.3em 1.4em;
+}
+
+.side-info img {
+	border: 1px solid #c8ccd1;
+	vertical-align: middle;
+	cursor: pointer;
+	background: #fff;
+}
+
+.side-info img:active {
+	margin-left: -60%;
+	transform: scale(2);
+}
+
+.side-info p {
+	text-align: left;
+	padding: 0.5rem;
+}
+
+.width-240 {
+	width: 240px;
+}
+
+.width-240 img {
+	width: 232px;
+}
+
+@media (max-width: 903px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 797px) {
+	.page-header  {
+		margin-top: 4rem;
+	}
+	.page-header h1 {
+		font-size: 2.5rem;
+	}
+	.side-info img:active {
+	margin-left: -40%;
+	transform: scale(1.5);
+}
+}
+
+@media (max-width: 550px) {
+	blockquote {
+		clear: both;
+	}
+}
+
+@media (max-width: 432px) {
+	.page-header  {
+		margin-top: 6rem;
+		line-height: 4rem;
+	}
+}
